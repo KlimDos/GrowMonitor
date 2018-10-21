@@ -1,0 +1,210 @@
+#main {
+	background-color: #ffbfff;
+/* 	border-width:1px;
+	border-style: solid;
+	position: relative;
+	height: 100vh;
+	margin-left: 0%;
+	margin-top: 0%; */
+}
+#menu {
+	background-color: red;
+	/*border-width:1px;
+	border-style: solid;
+	position: relative;
+    width: 98%;
+    height: 25vh;
+    margin-left: 1%;
+	margin-top: 1%; */
+}
+#calender {
+	background-color: green;
+/*	border-width:1px;
+	border-style: solid;
+	position: relative;
+    width: 98%;
+	height: 25vh;
+    margin-left: 1%;
+	margin-top: 1%;		 */
+}	
+#layout { 
+			overflow: hidden;
+			}
+#layout DIV {
+				float: left;
+			}
+#meters {
+	background-color: #ff99a1;
+	width: 20%;
+/* 	border-width:1px;
+	border-style: solid;
+	position: relative;
+    width: 20%;
+   height: 25vh;
+     margin-left: 1%;
+	margin-top: 2%; */
+	}	
+#cam_tnh {
+	background-color: #ff99a1;
+	width: 60%;
+/*	border-width:1px;
+	border-style: solid;
+	position: relative;
+    width: 60%;
+    height: 25vh;
+     margin-left: 2%;
+	margin-top: 0%; */
+	}	
+#graf {
+	background-color: #ff99a1;
+	width: 20%;
+ /*	border-width:1px;
+	border-style: solid;
+	position: relative;
+    width: 20%;
+   height: 25vh;
+     margin-left: 2%;
+	margin-top: 2%; */
+	}	
+#last {
+	background-color: #45758d;
+/* 	border-width:1px;
+	border-style: solid;
+	position: relative;
+    width: 100%;
+    height: 25vh;
+    margin-left: 2%;
+	margin-top: 2%; */
+	}	
+#Tm {
+	background-color: yellow;
+	border: thick;
+	position: relative;
+    width: 49%;
+    padding-bottom: 23%;
+    float: left;
+    height: 0;
+    margin-left: 0%;
+	margin-top: 0%;
+}
+#Hm {
+	background-color: skyblue;
+	border: thick;
+	position: relative;
+    width: 49%;
+    padding-bottom: 23%;
+    float: left;
+    height: 0;
+    margin-left: 2%;
+	margin-top: 0%;	
+}
+#w1m {
+	background-color: yellow;
+	border: thick;
+	position: relative;
+    width: 49%;
+    padding-bottom: 23%;
+    float: left;
+    height: 0;
+    margin-left: 0%;
+	margin-top: 2%;
+}
+#w2m {
+	background-color: skyblue;
+	border: thick;
+	position: relative;
+    width: 49%;
+    padding-bottom: 23%;
+    float: left;
+    height: 0;
+    margin-left: 2%;
+	margin-top: 2%;	
+}	
+#l1m {
+	background-color: yellow;
+	border: thick;
+	position: relative;
+    width: 49%;
+    padding-bottom: 23%;
+    float: left;
+    height: 0;
+    margin-left: 0%;
+	margin-top: 2%;
+}
+#l2m {
+	background-color: skyblue;
+	border: thick;
+	position: relative;
+    width: 49%;
+    padding-bottom: 23%;
+    float: left;
+    height: 0;
+    margin-left: 2%;
+	margin-top: 2%;	
+}
+#relays {
+	background-color: skyblue;
+	border: thick;
+	position: relative;
+    width: 100%;
+    padding-bottom: 23%;
+    float: left;
+    height: 0;
+    margin-left: 0%;
+	margin-top: 2%;	
+}
+#cam {
+	background-color: cyan;
+	border: thick;
+	position: absolute;
+    width: 100%;
+    height: 50%;
+    margin-left: 0%;
+	margin-top: 0%;
+}
+#tnh {
+	background-color: cyan;
+	position: absolute;
+    width: 100%;
+    height: 48%;
+    margin-left: 0%;
+	margin-top: 50%;
+}
+#w1 {
+	background-color: cyan;
+	border: thick;
+	position: absolute;
+    width: 100%;
+    height: 25%;
+    margin-left: 0%;
+	margin-top: 0%;
+}
+#w2 {
+	background-color: cyan;
+	border: thick;
+	position: absolute;
+    width: 100%;
+    height: 25%;
+    margin-left: 0%;
+	margin-top: 27%;
+}	
+#l1 {
+	background-color: cyan;
+	border: thick;
+	position: absolute;
+    width: 100%;
+    height: 25%;
+    margin-left: 0%;
+	margin-top: 54%;
+}
+#l2 {
+	background-color: cyan;
+	border: thick;
+	position: absolute;
+    width: 100%;
+	top:0;
+    height: 25%;
+    margin-left: 0%;
+	margin-top: 81%;
+}
+

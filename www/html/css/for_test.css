@@ -1,0 +1,42 @@
+#cube
+{
+  width: 20px;
+  height: 20px;
+  background-color: red;
+}
+.centerBlock {
+  display: block;
+  margin: auto;
+}
+canvas {
+  display: block; 
+  position: absolute;
+  background: navy;
+  width: 320px;
+  height: 240px;
+
+}
+.rect
+{
+ margin:  50px;
+ width: 640px;
+ height: 480px;
+
+}
+
+.rotate180 {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.smallbx {
+  font-size:12px;
+  font-family:tahoma arial;
+}
+.class1 {
+  max-height:0px;
+  transition:max-height 1s;
+  overflow:hidden;
+}

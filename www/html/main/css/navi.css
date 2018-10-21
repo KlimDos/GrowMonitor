@@ -1,0 +1,43 @@
+#container {
+margin: 0 auto;
+text-align: center;
+}
+
+img.relay {  
+  width: 50%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+img.cam {
+  height: 100%;
+  width: 100%;
+}
+a.button27 {
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 3px;
+  box-shadow:
+  0 1px rgba(255,255,255,.2) inset,
+  0 3px 5px rgba(0,1,6,.5),
+  0 0 1px 1px rgba(0,1,6,.2);
+  transition: .2s ease-in-out;
+  text-shadow: 0 -1px 2px rgba(0,0,0,.2);
+  padding: 5;
+  margin-top: 1%;
+  line-height: 2em;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  color: #000; 
+  
+}
+a.button27:hover {
+  background: #dcdcdc linear-gradient(#fff, #dcdcdc);
+  box-shadow: 0 0 0 1px #aaa inset, 0 1px 1px #aaa;
+}
+a.button27:active {
+  background: none;
+    box-shadow: 0 0 0 1px #bbb inset, 0 1px 3px rgba(0,0,0,.5) inset, 0 1px 2px #fff;
+}

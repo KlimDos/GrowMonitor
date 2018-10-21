@@ -1,0 +1,8 @@
+<?php
+
+#$_GET[one];
+$output = exec("/var/www/html/relay1.py $_GET['angle']");
+#echo "<pre>$output</pre>"; 
+echo "переменная: .$_GET['angle']";
+#echo var_dump($_GET);
+?>

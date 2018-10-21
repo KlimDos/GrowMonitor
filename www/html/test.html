@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Гроу Монитор</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/modules.css">
+  <link rel="stylesheet" type="text/css" href="css/checkbox_ios8.css">
+
+  <link rel="stylesheet" type="text/css" href="css/for_test.css">
+
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+  <script type="text/javascript" src="js/jsapi"></script>
+  <script type="text/javascript" src="js/loader.js"></script>
+  
+  <script type="text/javascript" src="js/get_jsons_meters.js"></script>
+  <script type="text/javascript" src="js/show_grafs.js"></script>
+
+
+  
+</head>
+<body>
+
+
+
+	<div class="container-fluid">
+
+		<div class="row">
+			<div class="col-md-12">
+				<nav class="navbar navbar-default">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">Гроу Монитор</a>
+					</div>
+					<div class="collapse navbar-collapse" id="main-menu" >
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="index.html">Dashboard</a></li>
+							<li><a href="tnh.html">Анализ температуры и влажности</a></li>
+							<li><a href="lux.html">Анализ овсещенности</a></li>
+							<li><a href="#">Анализ почвы</a></li>
+						</ul>
+					</div>  
+				</nav>
+			</div>   
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<nav class="navbar navbar-default"></nav>
+			</div>   
+		</div>
+
+		<div class="row">
+			<div class="col-md-2">
+			</div>    
+			<div class="col-md-8 col-xs-12">
+				<div class="col-md-2 col-xs-6">Последние обновление:
+					<div id='Tm_module'></div>
+				</div>      
+				<div class="col-md-2 col-xs-6"><?php echo $row1[0];?>
+					<div id='Hm_module'></div>  
+				</div>      
+				<div class="col-md-2 col-xs-6">Последние обновление:
+					<div id='lux1m_module'></div> 
+				</div>    
+				<div class="col-md-2 col-xs-6"><?php echo $row2[0];?>
+					<div id='lux2m_module'></div> 
+				</div>  
+				<div class="col-md-2 col-xs-6">Последние обновление:
+					<div id='w1m_module'></div> 
+				</div>      
+				<div class="col-md-2 col-xs-6"><?php echo $row3[0];?>
+					<div id='w2m_module'></div> 
+				</div>    
+			</div>    
+			<div class="col-md-2">
+			</div>  
+		</div>
+	</div>
+
+
+
+<!-- <OBJECT classid="clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921"
+     codebase="http://downloads.videolan.org/pub/videolan/vlc/latest/win32/axvlc.cab"
+     width="640" height="480" id="vlc" events="True">
+   <param name="Src" value="rtsp://172.16.100.103:8091/live" />
+   <param name="ShowDisplay" value="True" />
+   <param name="AutoLoop" value="False" />
+   <param name="AutoPlay" value="True" />
+   <embed id="vlcEmb"  type="application/x-google-vlc-plugin" version="VideoLAN.VLCPlugin.2" autoplay="yes" loop="no" width="640" height="480"
+     target="rtsp://cameraipaddress" ></embed>
+</OBJECT> -->
+
+
+
+<video src="rtsp://172.16.100.103:8091/live">
+    Your browser does not support the VIDEO tag and/or RTP streams.
+</video>
+
+
+
+</body>
+</html> 
