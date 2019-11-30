@@ -1,0 +1,4 @@
+*/5 * * * * /usr/bin/python /home/sasha/TnH/tnh_main.py 204
+1-59/5 * * * * /usr/bin/python /home/sasha/TnH/tnh_main.py 205
+
+Apr 30 22:11:01 localhost CRON[5910]: (root) CMD (/usr/bin/python /home/sasha/TnH/tnh_main.py 204)
